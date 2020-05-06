@@ -19,9 +19,6 @@ if __name__ == '__main__':
     random.seed(1)
     print(type(arg),arg)
     if arg.framework == 'pt':
-        #pt_main(arg)
-        #pt_adv_main(arg)
-        #test2(arg)
-        test3(arg)
+        pt_adv_main(arg)
     else:
         raise RuntimeError
